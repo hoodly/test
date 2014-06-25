@@ -7,7 +7,7 @@ class MainPage(webapp.RequestHandler):
     
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.out.write('PYCHARM FUCK YEA ')
+        self.response.out.write('Git test')
 
 
 application = webapp.WSGIApplication([('/', MainPage)], debug=True)
